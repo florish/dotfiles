@@ -1,0 +1,4 @@
+[push]
+  default = simple
+[alias]
+  pf = push --force-with-lease
