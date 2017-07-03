@@ -1,3 +1,8 @@
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init -)"
+
 # Enable coloured output from ls, etc
 export CLICOLOR=1
 
