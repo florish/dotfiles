@@ -1,6 +1,3 @@
-# Include user, npm, and homebrew bin dirs
-export PATH=/Users/floris/bin:$PATH
-
 alias be='bundle exec'
 
 # Heroku shortcut commands

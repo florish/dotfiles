@@ -1,4 +1,6 @@
 export EDITOR='subl -n -w'
+# Include user, npm, and homebrew bin dirs
+export PATH=/Users/floris/bin:$PATH
 
 # Set up git prompt and autocomplete (brew install git bash-completion)
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
