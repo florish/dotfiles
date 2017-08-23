@@ -1,5 +1,8 @@
 alias be='bundle exec'
 
+# Enable IEx command history between sessions
+export ERL_AFLAGS="-kernel shell_history enabled"
+
 # Heroku shortcut commands
 function hs(){
   heroku "$@" --remote staging
